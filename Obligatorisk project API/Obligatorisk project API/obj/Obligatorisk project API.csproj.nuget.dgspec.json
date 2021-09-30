@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Skole\\3. semester\\Obligatorisk opgave API\\Obligatorisk project API\\Obligatorisk project API\\Obligatorisk project API.csproj": {}
+    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk project API\\Obligatorisk project API\\Obligatorisk project API.csproj": {}
   },
   "projects": {
-    "C:\\Skole\\3. semester\\Obligatorisk opgave API\\Obligatorisk project API\\Obligatorisk project API\\Obligatorisk project API.csproj": {
+    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk project API\\Obligatorisk project API\\Obligatorisk project API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Skole\\3. semester\\Obligatorisk opgave API\\Obligatorisk project API\\Obligatorisk project API\\Obligatorisk project API.csproj",
+        "projectUniqueName": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk project API\\Obligatorisk project API\\Obligatorisk project API.csproj",
         "projectName": "Obligatorisk project API",
-        "projectPath": "C:\\Skole\\3. semester\\Obligatorisk opgave API\\Obligatorisk project API\\Obligatorisk project API\\Obligatorisk project API.csproj",
+        "projectPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk project API\\Obligatorisk project API\\Obligatorisk project API.csproj",
         "packagesPath": "C:\\Users\\rulle\\.nuget\\packages\\",
-        "outputPath": "C:\\Skole\\3. semester\\Obligatorisk opgave API\\Obligatorisk project API\\Obligatorisk project API\\obj\\",
+        "outputPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk project API\\Obligatorisk project API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

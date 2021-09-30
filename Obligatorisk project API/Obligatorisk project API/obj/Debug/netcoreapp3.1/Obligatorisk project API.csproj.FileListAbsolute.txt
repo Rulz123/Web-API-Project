@@ -1,0 +1,21 @@
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\bin\Debug\netcoreapp3.1\Obligatorisk project API.exe
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\bin\Debug\netcoreapp3.1\Obligatorisk project API.deps.json
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\bin\Debug\netcoreapp3.1\Obligatorisk project API.runtimeconfig.json
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\bin\Debug\netcoreapp3.1\Obligatorisk project API.runtimeconfig.dev.json
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\bin\Debug\netcoreapp3.1\Obligatorisk project API.dll
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\bin\Debug\netcoreapp3.1\Obligatorisk project API.pdb
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.csproj.AssemblyReference.cache
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.AssemblyInfoInputs.cache
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.AssemblyInfo.cs
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.csproj.CoreCompileInputs.cache
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\staticwebassets\Obligatorisk project API.StaticWebAssets.Manifest.cache
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\staticwebassets\Obligatorisk project API.StaticWebAssets.xml
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Obligatorisk project API.styles.css
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.RazorTargetAssemblyInfo.cache
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.dll
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.pdb
+C:\Users\rulle\OneDrive\Dokumenter\GitHub\Web-API-Project\Obligatorisk project API\Obligatorisk project API\obj\Debug\netcoreapp3.1\Obligatorisk project API.genruntimeconfig.cache
