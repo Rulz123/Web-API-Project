@@ -383,3 +383,4 @@ C:\Users\rulle\Documents\GitHub\Web-API-Project\Obligatorisk opgave API MVC\Obli
 C:\Users\rulle\Documents\GitHub\Web-API-Project\Obligatorisk opgave API MVC\Obligatorisk opgave API MVC\obj\Debug\netcoreapp3.1\Obligatorisk opgave API MVC.dll
 C:\Users\rulle\Documents\GitHub\Web-API-Project\Obligatorisk opgave API MVC\Obligatorisk opgave API MVC\obj\Debug\netcoreapp3.1\Obligatorisk opgave API MVC.pdb
 C:\Users\rulle\Documents\GitHub\Web-API-Project\Obligatorisk opgave API MVC\Obligatorisk opgave API MVC\obj\Debug\netcoreapp3.1\Obligatorisk opgave API MVC.genruntimeconfig.cache
+C:\Users\rulle\Documents\GitHub\Web-API-Project\Obligatorisk opgave API MVC\Obligatorisk opgave API MVC\obj\Debug\netcoreapp3.1\Razor\Views\Games\Index.cshtml.g.cs
