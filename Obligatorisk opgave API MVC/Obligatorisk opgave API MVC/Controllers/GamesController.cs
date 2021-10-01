@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Obligatorisk_opgave_API_MVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +11,16 @@ namespace Obligatorisk_opgave_API_MVC.Controllers
 {
     public class GamesController : Controller
     {
-        public IActionResult Index()
+        private readonly ApplicationDbContext _context;
+
+        public GamesController(ApplicationDbContext context)
         {
-            return View();
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Game.ToListAsync());
         }
     }
 }

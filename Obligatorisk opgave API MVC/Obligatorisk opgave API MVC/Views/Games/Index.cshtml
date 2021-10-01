@@ -1,9 +1,141 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<Games>
+
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Games";
 }
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>    
-</div>
+
+<h1>List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.internalName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.metacriticlink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dealID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.storeID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.gameID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.salePrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.normalPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isOnSale)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.savings)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.metacriticscore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.steamRatingText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.steamRatingPercent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.steamRatingCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.steamAppID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.releaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lastChange)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dealRating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.thumb)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.internalName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.metacriticlink)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dealID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.storeID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.gameID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.salePrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.normalPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.isOnSale)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.savings)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.metacriticscore)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.steamRatingText)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.steamRatingPercent)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.steamRatingCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.steamAppID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.releaseDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.lastChange)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dealRating)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.thumb)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

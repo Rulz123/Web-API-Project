@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Release",
+    "\\Controllers",
+    "\\Migrations",
+    "\\Models",
+    "\\obj",
+    "\\Views",
+    "\\Views\\Games"
+  ],
+  "SelectedNode": "\\Obligatorisk opgave API MVC.csproj",
+  "PreviewInSolutionExplorer": false
+}

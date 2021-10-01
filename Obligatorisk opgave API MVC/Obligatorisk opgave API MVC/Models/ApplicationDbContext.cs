@@ -10,7 +10,6 @@ namespace Obligatorisk_opgave_API_MVC.Models
     { 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
         }
 
         public DbSet<Games> Game { get; set; }
