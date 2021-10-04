@@ -26,16 +26,28 @@ namespace Obligatorisk_opgave_API_MVC
             {
                 var services = scope.ServiceProvider;
 
+                string constr = "Server=LAPTOP-EDR90JDB;Database=Cheapshark;Trusted_Connection=True;MultipleActiveResultSets=True";
+
                 ServicePointManager.Expect100Continue = true;
                 ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
                 string json = new WebClient().DownloadString("https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15");
                 DataTable dt = JsonConvert.DeserializeObject<DataTable>(json);
-                for (int i = 0; i < dt.Rows.Count; i++)
+                using (SqlConnection conn = new SqlConnection(constr))
                 {
-                    string constr = "Server=(localdb)\\mssqllocaldb;Database=Cheapshark;Trusted_Connection=True;MultipleActiveResultSets=True";
-                    using (SqlConnection conn = new SqlConnection(constr))
+                    conn.Open();
+                    string sql = "TRUNCATE TABLE Game;";
+                    using (SqlCommand cmd = new SqlCommand(sql, conn))
                     {
-                        string sql = "INSERT INTO Game VALUES(@internalName, @title, @metacriticlink, @dealID, @storeID, @gameID, @salePrice, @normalPrice, @isOnSale, @savings," +
+                        
+                        cmd.ExecuteNonQuery();
+                    }
+
+
+                    for (int i = 0; i < dt.Rows.Count; i++)
+                    {
+
+
+                        sql = "INSERT INTO Game VALUES(@internalName, @title, @metacriticlink, @dealID, @storeID, @gameID, @salePrice, @normalPrice, @isOnSale, @savings," +
                             " @metacriticscore, @steamRatingText, @steamRatingPercent, @steamRatingCount, @steamAppID, @releaseDate, @lastChange, @dealRating, @thumb)";
                         using (SqlCommand cmd = new SqlCommand(sql, conn))
                         {
@@ -59,23 +71,26 @@ namespace Obligatorisk_opgave_API_MVC
                             cmd.Parameters.AddWithValue("@dealRating", dt.Rows[i]["dealRating"].ToString());
                             cmd.Parameters.AddWithValue("@thumb", dt.Rows[i]["thumb"].ToString());
 
-                            conn.Open();
+
                             cmd.ExecuteNonQuery();
-                            conn.Close();
+
                         }
                     }
+                    conn.Close();
+                   
                 }
+              
 
-                    //try
-                    //{
-                    //    SeedData.Initialize();
-                    //}
-                    //catch (Exception ex)
-                    //{
-                    //    var logger = services.GetRequiredService<ILogger<Program>>();
-                    //    logger.LogError(ex, "An error occurred seeding the DB.");
-                    //}
-                }
+                //try
+                //{
+                //    SeedData.Initialize();
+                //}
+                //catch (Exception ex)
+                //{
+                //    var logger = services.GetRequiredService<ILogger<Program>>();
+                //    logger.LogError(ex, "An error occurred seeding the DB.");
+                //}
+            }
 
             host.Run();
         }
