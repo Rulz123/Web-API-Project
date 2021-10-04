@@ -4,9 +4,9 @@
     ViewData["Title"] = "Games";
 }
 
-<h1>List</h1>
+<h1 class="display-4" style="margin-bottom: 25px; margin-top: 40px;">Steam Deals from Cheapshark API</h1>
 
-<table class="table">
+<table class="table table-dark table-striped table-hover table-responsive">
     <thead>
         <tr>
             <th>
@@ -66,7 +66,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.thumb)
             </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -129,11 +128,6 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.thumb)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
                 </td>
             </tr>
         }
