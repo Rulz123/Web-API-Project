@@ -26,17 +26,27 @@ namespace Obligatorisk_opgave_API_MVC
             {
                 var services = scope.ServiceProvider;
 
+
+                string constr = "Server=(localdb)\mssqllocaldb;Database=Cheapshark;Trusted_Connection=True;MultipleActiveResultSets=True";
                 ServicePointManager.Expect100Continue = true;
                 ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
                 string json = new WebClient().DownloadString("https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15");
                 DataTable dt = JsonConvert.DeserializeObject<DataTable>(json);
-                for (int i = 0; i < dt.Rows.Count; i++)
+                using (SqlConnection conn = new SqlConnection(constr))
                 {
-                    string constr = "Server=LAPTOP-EDR90JDB;Database=Cheapshark;Trusted_Connection=True;MultipleActiveResultSets=True";
-                    using (SqlConnection conn = new SqlConnection(constr))
+                    string sql = "TRUNCATE TABLE Game;";
+                    using (SqlCommand cmd = new SqlCommand(sql, conn))
                     {
-                        string sql = "INSERT INTO Game VALUES(@internalName, @title, @metacriticlink, @dealID, @storeID, @gameID, @salePrice, @normalPrice, @isOnSale, @savings," +
-                            " @metacriticscore, @steamRatingText, @steamRatingPercent, @steamRatingCount, @steamAppID, @releaseDate, @lastChange, @dealRating, @thumb)";
+                        conn.Open();
+                        cmd.ExecuteNonQuery();
+                        conn.Close();
+                    }
+                    for (int i = 0; i < dt.Rows.Count; i++)
+                    {
+                      
+
+                        sql = "INSERT INTO Game VALUES(@internalName, @title, @metacriticlink, @dealID, @storeID, @gameID, @salePrice, @normalPrice, @isOnSale, @savings," +
+                        " @metacriticscore, @steamRatingText, @steamRatingPercent, @steamRatingCount, @steamAppID, @releaseDate, @lastChange, @dealRating, @thumb)";
                         using (SqlCommand cmd = new SqlCommand(sql, conn))
                         {
                             cmd.Parameters.AddWithValue("@internalName", dt.Rows[i]["internalName"].ToString());
