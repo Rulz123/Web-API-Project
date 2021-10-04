@@ -53,7 +53,7 @@ namespace Obligatorisk_opgave_API_MVC
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Games}/{action=Index}/{id?}");
             });
         }
     }
