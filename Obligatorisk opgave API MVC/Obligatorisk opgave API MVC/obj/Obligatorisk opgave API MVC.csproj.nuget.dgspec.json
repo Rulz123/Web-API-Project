@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC.csproj": {}
+    "C:\\Users\\Skies\\Documents\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC.csproj": {
+    "C:\\Users\\Skies\\Documents\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC.csproj",
+        "projectUniqueName": "C:\\Users\\Skies\\Documents\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC.csproj",
         "projectName": "Obligatorisk opgave API MVC",
-        "projectPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC.csproj",
-        "packagesPath": "C:\\Users\\rulle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\obj\\",
+        "projectPath": "C:\\Users\\Skies\\Documents\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC.csproj",
+        "packagesPath": "C:\\Users\\Skies\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Skies\\Documents\\GitHub\\Web-API-Project\\Obligatorisk opgave API MVC\\Obligatorisk opgave API MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\rulle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Skies\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
