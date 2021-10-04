@@ -32,7 +32,7 @@ namespace Obligatorisk_opgave_API_MVC
                 DataTable dt = JsonConvert.DeserializeObject<DataTable>(json);
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
-                    string constr = "Server=LAPTOP-EDR90JDB;Database=Cheapshark;Trusted_Connection=True;MultipleActiveResultSets=True";
+                    string constr = "Server=(localdb)\\mssqllocaldb;Database=Cheapshark;Trusted_Connection=True;MultipleActiveResultSets=True";
                     using (SqlConnection conn = new SqlConnection(constr))
                     {
                         string sql = "INSERT INTO Game VALUES(@internalName, @title, @metacriticlink, @dealID, @storeID, @gameID, @salePrice, @normalPrice, @isOnSale, @savings," +
